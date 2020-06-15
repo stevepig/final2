@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url('header.jpg');
+  padding: 200px;
+  text-align: center;
+  color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: auto;
+}
+
+.bg{
+  background-image: url("header.jpg");
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Minecraft Dungeons 介紹</h2>
+</div>
+
+<div id="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="news.html">News</a>
+  <a class="active" href="video.html">Video</a>
+  <a href="buy.html">Buy</a>
+</div>
+
+<div class="content">
+  <img url="website/intro1.png">
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-color: black;
+}
+p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  color: white;
+}
+h2 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  color: white;
+}
+button {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  color: white;
+}
+
+</style>
+<body>
+
+  <center><h2>Minecraft: Dungeons – Announce Trailer</h2></center>
+  <center><iframe width="850" height="500" src="https://www.youtube.com/embed/HJicIi8Lvx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  <center><p>Fight your way through an all-new action-adventure game, inspired by classic dungeon crawlers and set in the Minecraft universe! Coming to PC in 2019.</p></center>
+  <center><p>Brave the dungeons alone, or team up with friends! Up to four players can battle together through action-packed,<br> treasure-stuffed, wildly varied levels, all in an epic quest to save the villagers and take down the evil Arch-Illager!</p></center>
+  <center><p>Discover new weapons and items that will help you defeat a ruthless swarm of new-and-nasty mobs. Fight or flee through canyons, swamps and – of course –<br> mines! Any adventurer brave or foolish enough (or a bit-of-both!) to explore this blocky and beautiful world will need to come prepared. So quickly, gear up!</p></center>
+  <br>
+  <center><button><a href="https://www.minecraft.net/en-us/about-dungeons/">Minecraft Dungeons Official Page</a></button></center>
+  <br>
+  <center><h2>Minecraft Dungeons: Gameplay Reveal Trailer</h2></center>
+  <center><iframe width="850" height="500" src="https://www.youtube.com/embed/076mjMOL6R8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  <center><p>Coming to PC, consoles and Xbox Game Pass in spring 2020. Sign up to learn more at <button><a href="https://www.minecraft.net/en-us/about-dungeons/">Minecraft Dungeons Official Page</a></button></p></center>
+  <br>
+  <center><p>Fight your way through an all-new action-adventure game, inspired by classic dungeon crawlers <br>and set in the Minecraft universe! Up to 4 friends can play together in local and online co-op.</p></center>
+  <br>
+  <center><h2>Minecraft Dungeons: Opening Cinematic</h2></center>
+  <center><iframe width="850" height="500" src="https://www.youtube.com/embed/mJczpIdONjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  <center><p>When a lonely, outcast Illager stumbles upon a mysterious object with terrifying powers, his entire<br> existence is turned upside down. Before long, he finds himself on a path of evil,  causing mayhem<br> across the Overworld. Who can stop him? Sign up at <button><a href="https://www.minecraftdungeons.net/en-us/">minecraft.net/dungeons for your chance to try!</a></button></p></center>
+  <br>
+  <center><h2>Minecraft Dungeons: Official Launch Trailer</h2></center>
+  <center><iframe width="850" height="500" src="https://www.youtube.com/embed/KCbE47v1qVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  <center><p>Gear up, because the wait is over! Get Minecraft Dungeons NOW for Windows, Xbox One, Xbox Game Pass, PlayStation 4, and Nintendo Switch: <button><a href="https://www.minecraftdungeons.net/en-us/">https://www.minecraftdungeons.net</a></button></p></center>
+  <br>
+  <center><p>Are you ready to unite, fight, and survive? Rediscover the Minecraft universe as you’ve never seen it before in an all-new action-adventure game inspired by<br> classic dungeon crawlers. Explore and battle your way through action-packed, treasure-stuffed, wildly varied levels with up to three friends. Do you have <br>what it takes to explore this beautiful yet dangerous world and defeat the evil Arch-Illager? Learn more about the game here: <button><a href="https://www.minecraft.net/en-us/about-dungeons/">https://www.minecraft.net/en-us/about...</a></button></p></center>
+  <center><p>AUDIO DESCRIPTION version is here: <button><a href="https://youtu.be/2Zd6q-8Uuxk">https://youtu.be/2Zd6q-8Uuxk</a></button></p></center>
+
+</body>
+</html>
